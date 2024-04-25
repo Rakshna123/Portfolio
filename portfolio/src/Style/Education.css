@@ -1,0 +1,51 @@
+.education{
+    margin: 50px 0px;
+    margin-left: 90px;
+    background-color: rgb(174, 251, 247);
+    padding: 100px 0px;
+}
+.education h1:hover{
+    color: darkgreen;
+    cursor: pointer;
+}
+.education hr{
+    color: blue;
+    margin: 10px 0;
+}
+.education .vertical-timeline-element-title{
+    color: black;
+    font-weight: bolder;
+}
+.custom-date-color{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* dark mode */
+
+#dark .education{
+    background-color: purple;
+    margin-left: 100px;
+}
+#dark .education h1:hover
+{
+    cursor: pointer;
+    color: yellowgreen;
+}
+
+
+@media (max-width: 600px){
+    .education{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .education h2{
+        padding-top: 20px;
+    }
+    .education hr{
+        width: 280px;
+        margin-top: 10px;
+    }
+}

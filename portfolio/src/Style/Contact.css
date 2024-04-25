@@ -1,0 +1,113 @@
+.contact{
+    margin-left: 100px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+.cards0{
+    box-shadow: 4px 5px 5px 4px gray;
+    height: 490px;
+    margin-left: 110px;
+}
+.contactImage{
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 35px;
+    /* border: none; */
+}
+.cards2{
+    margin: 0px 40px;
+}
+.cards1 .contctImage{
+    /* padding: 30px; */
+    /* margin-top: 30px; */
+    height: 100%;
+    width: 100%;
+}
+.line{
+    /* height: 1px; */
+    width: 70%;
+    margin-top: 10px;
+    /* background-color: wheat; */
+}
+.border-line{
+    border: 1px solid white;
+}
+.or{
+    margin-left: 250px;
+    font-weight: bold;
+    margin-top: 0;
+} 
+/* .input{
+    margin-left: 80px;
+} */
+.messagebtn{
+    margin-left: 180px;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    box-shadow: 4px 4px 5px 6px gray;
+    border: 4px solid black;
+}
+.messagebtn:hover{
+    background-color: transparent;
+    border: 4px solid crimson;
+    color: crimson;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+a .linkedIn:hover{
+    transform: scale(1.5);
+}
+a .github:hover{
+    transform: scale(1.5);
+}
+
+
+/* dark mode */
+#dark .connect{
+    margin-top: 20px;
+}
+#dark .messagebtn:hover{
+    background-color: white;
+    border: 3px solid crimson;
+    color: crimson;
+    cursor: pointer;
+}
+#dark .contactImage{
+   margin-left: 0px;
+   border: none !important;
+   margin-top: 0px;
+}
+#dark .cards0{
+    border: 3px solid salmon;
+    box-shadow: 4px 5px 4px 6px salmon;
+}
+
+
+@media (max-width: 600px) {
+    .contact {
+      margin: 0;
+      padding: 0;
+      margin-top: 20px; /* Adjust margin-top for smaller screens */
+    }
+  
+    .cards0 {
+      margin-left: 0; /* Reset margin-left for smaller screens */
+      margin-right: 0; /* Reset margin-right for smaller screens */
+    }
+  
+    .contactImage {
+      margin-top: 10px; /* Adjust margin-top for smaller screens */
+    }
+  
+    .messagebtn {
+      text-align: center;
+    }
+
+}

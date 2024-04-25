@@ -1,0 +1,147 @@
+.project{
+    margin: 50px 0px;
+    margin-left: 100px;
+}
+.project hr{
+    color: blue;
+    margin: 10px 0;
+}
+.top{
+    color:tomato;
+    font-weight: bolder;
+}
+.project h1:hover{
+    transform: scale(1.1);
+    color: darkgreen;
+}
+.head{
+    color: rgba(46, 139, 86, 0.918);
+    font-weight: bolder;
+}
+.project-content{
+    text-align: justify;
+    width:90%;
+    margin-left: 60px;
+}
+.food-content{
+    text-align: justify;
+}
+#ads .card-notify-badge{
+    position: absolute;
+    left:-10px;
+    top: -20px;
+    background-color: skyblue;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    padding: 4px;  
+}
+.project .card-detail-badge{
+    background-color: black;
+    color: white;
+    border-radius:30px 30px 30px 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    border: 4px solid deeppink;
+    box-shadow: 4px 4px 4px gray;
+}
+.project .card-image-overly{
+    font-size: 20px;
+}
+.project .card-image-overly span{
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.project .card-image-overly span:hover{
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bolder;
+    border: 4px solid darkgreen;
+}
+.project .card{
+    box-shadow: 5px 5px 4px gray;
+}
+.main{
+    height: 500px;
+}
+.project .card:hover{
+    border-radius: 4px;
+    transform: scale(1.1);
+    background-color: pink;
+    cursor: pointer;
+}
+.project .ad-btn{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+    height: 45px;
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 80px;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 35px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none; /*  to remove underline in a tag */
+    margin: 20px auto 20px auto;
+    box-shadow: 4px 5px 4px 5px gray;
+    border: 4px solid darkgreen;
+}
+    /* padding-top: 5px; */
+.project .ad-btn:hover{
+    background-color: black;
+    color: yellowgreen;
+    border: 4px solid yellowgreen;
+    transform: scale(1.1);
+    box-shadow: 4px 5px 4px 5px gray;
+}
+.project .git-btn{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 80px;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 35px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none; /*  to remove underline in a tag */
+    margin: 20px auto 20px auto;
+    box-shadow: 4px 5px 4px 5px gray;
+    border: 4px solid black;
+}
+.project .git-btn:hover{
+    transform: scale(1.2);
+}
+.weather{
+    width:400px;
+    margin-right: 5px;
+}
+
+
+
+@media (max-width: 600px){
+    .project{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .project hr{
+        width: 280px;
+    }
+    .project .card{
+       margin-top: 30px;
+    }
+    .project-content{
+        margin-left: 15px;
+    }
+}
